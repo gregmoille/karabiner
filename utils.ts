@@ -39,7 +39,7 @@ export function createHyperSubLayer(
       to_after_key_up: [
         {
           set_variable: {
-            name: subLayerVariableName,
+            name: "hyper",
             // The default value of a variable is 0: https://karabiner-elements.pqrs.org/docs/json/complex-modifications-manipulator-definition/conditions/variable/
             // That means by using 0 and 1 we can filter for "0" in the conditions below and it'll work on startup
             value: 0,
