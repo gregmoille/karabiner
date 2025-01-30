@@ -85,26 +85,15 @@ const rules: KarabinerRules[] = [
       p: app("skim"),
       i: app("/Applications/Adobe\ Illustrator\ 2025/Adobe\ Illustrator"),
     },
-
-    // TODO: This doesn't quite work yet.
-    // l = "Layouts" via Raycast's custom window management
-    // l: {
-    //   // Coding layout
-    //   c: shell`
-    //     open -a "Visual Studio Code.app"
-    //     sleep 0.2
-    //     open -g "raycast://customWindowManagementCommand?position=topLeft&relativeWidth=0.5"
-
-    //     open -a "Terminal.app"
-    //     sleep 0.2
-    //     open -g "raycast://customWindowManagementCommand?position=topRight&relativeWidth=0.5"
-    //   `,
-    // },
-
     // r = "Raycast"
     r: {
       v: open("raycast://extensions/thomas/visual-studio-code/index"),
       g: open("raycast://extensions/moored/git-repos/list"),
+      p: open("raycast://extensions/khasbilegt/1password/item-list"),
+      e: open("raycast://extensions/raycast/emoji-symbols/search-emoji-symbols"),
+      z: open("raycast://extensions/reckoning-dev/zotero/commandSearchZotero"),
+      h: open("raycast://extensions/gbgk/glyph-search/index"),
+      u: open("raycast://script-commands/get-current-url"),
     },
   }),
   {
