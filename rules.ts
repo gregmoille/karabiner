@@ -70,6 +70,7 @@ const rules: KarabinerRules[] = [
     // o = "Open" applications
     o: {
       1: open("1Password"),
+      a: app("Adobe Acrobat"),
       g: app("Google Chrome"),
       b: app("Safari"),
       c: app("Notion Calendar"),
@@ -94,6 +95,8 @@ const rules: KarabinerRules[] = [
       z: open("raycast://extensions/reckoning-dev/zotero/commandSearchZotero"),
       h: open("raycast://extensions/gbgk/glyph-search/index"),
       u: open("raycast://script-commands/get-current-url"),
+      m: open("raycast://extensions/yug2005/mail/see-recent-mail"),
+      s: open("raycast://extensions/mommertf/slack/unread-messages"),
     },
   }),
   {

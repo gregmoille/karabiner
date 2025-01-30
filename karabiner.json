@@ -293,6 +293,30 @@
               {
                 "to": [
                   {
+                    "shell_command": "open -a 'Adobe Acrobat.app'"
+                  }
+                ],
+                "description": "Open -a 'Adobe Acrobat.app'",
+                "type": "basic",
+                "from": {
+                  "key_code": "a",
+                  "modifiers": {
+                    "optional": [
+                      "any"
+                    ]
+                  }
+                },
+                "conditions": [
+                  {
+                    "type": "variable_if",
+                    "name": "hyper_sublayer_o",
+                    "value": 1
+                  }
+                ]
+              },
+              {
+                "to": [
+                  {
                     "shell_command": "open -a 'Google Chrome.app'"
                   }
                 ],
