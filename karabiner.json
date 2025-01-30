@@ -872,6 +872,54 @@
                     "value": 1
                   }
                 ]
+              },
+              {
+                "to": [
+                  {
+                    "shell_command": "open raycast://extensions/yug2005/mail/see-recent-mail"
+                  }
+                ],
+                "description": "Open raycast://extensions/yug2005/mail/see-recent-mail",
+                "type": "basic",
+                "from": {
+                  "key_code": "m",
+                  "modifiers": {
+                    "optional": [
+                      "any"
+                    ]
+                  }
+                },
+                "conditions": [
+                  {
+                    "type": "variable_if",
+                    "name": "hyper_sublayer_r",
+                    "value": 1
+                  }
+                ]
+              },
+              {
+                "to": [
+                  {
+                    "shell_command": "open raycast://extensions/mommertf/slack/unread-messages"
+                  }
+                ],
+                "description": "Open raycast://extensions/mommertf/slack/unread-messages",
+                "type": "basic",
+                "from": {
+                  "key_code": "s",
+                  "modifiers": {
+                    "optional": [
+                      "any"
+                    ]
+                  }
+                },
+                "conditions": [
+                  {
+                    "type": "variable_if",
+                    "name": "hyper_sublayer_r",
+                    "value": 1
+                  }
+                ]
               }
             ]
           },
