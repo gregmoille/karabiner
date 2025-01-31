@@ -96,9 +96,10 @@ const rules: KarabinerRules[] = [
     r: {
       slash: open("raycast://ai-commands/aademic-rewrite"),
       return_or_enter: open("raycast://ai-commands/fix-spelling-and-grammar"),
+      period: open("raycast://extensions/raycast/raycast-focus/toggle-focus-session"),
       n: open("raycast://extensions/raycast/raycast-notes/raycast-notes"),
       k: open("raycast://extensions/rolandleth/kill-process/index"),
-      f: open("raycast://extensions/raycast/raycast-focus/toggle-focus-session"),
+      f: open("raycast://extensions/raycast/file-search/search-files"),
       v: open("raycast://extensions/thomas/visual-studio-code/index"),
       g: open("raycast://extensions/moored/git-repos/list"),
       p: open("raycast://extensions/khasbilegt/1password/item-list"),
