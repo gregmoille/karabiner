@@ -48,6 +48,12 @@ const rules: KarabinerRules[] = [
               value: 0,
             },
           },
+          {
+            set_variable: {
+              name: "hyper_sublayer_w",
+              value: 0,
+            },
+          },
         ],
         // to_if_alone: [
         //   {
@@ -88,6 +94,11 @@ const rules: KarabinerRules[] = [
     },
     // r = "Raycast"
     r: {
+      slash: open("raycast://ai-commands/aademic-rewrite"),
+      return_or_enter: open("raycast://ai-commands/fix-spelling-and-grammar"),
+      n: open("raycast://extensions/raycast/raycast-notes/raycast-notes"),
+      k: open("raycast://extensions/rolandleth/kill-process/index"),
+      f: open("raycast://extensions/raycast/raycast-focus/toggle-focus-session"),
       v: open("raycast://extensions/thomas/visual-studio-code/index"),
       g: open("raycast://extensions/moored/git-repos/list"),
       p: open("raycast://extensions/khasbilegt/1password/item-list"),
@@ -98,6 +109,15 @@ const rules: KarabinerRules[] = [
       m: open("raycast://extensions/yug2005/mail/see-recent-mail"),
       s: open("raycast://extensions/mommertf/slack/unread-messages"),
     },
+    w:{
+      spacebar: open("-g raycast://extensions/raycast/window-management/almost-maximize"),
+      right_arrow: open("-g raycast://extensions/raycast/window-management/right-half"),
+      left_arrow: open("-g raycast://extensions/raycast/window-management/left-half"),
+      l: open("-g raycast://extensions/raycast/window-management/next-desktop"),
+      h: open("-g raycast://extensions/raycast/window-management/previous-desktop"), 
+      f: open("-g raycast://extensions/raycast/window-management/toggle-fullscreen"),
+      
+    }
   }),
   {
     description: "Change Backspace to Spacebar when Minecraft is focused",
