@@ -109,6 +109,7 @@ const rules: KarabinerRules[] = [
       u: open("raycast://script-commands/get-current-url"),
       m: open("raycast://extensions/yug2005/mail/see-recent-mail"),
       s: open("raycast://extensions/mommertf/slack/unread-messages"),
+      w: open("raycast://extensions/raycast/navigation/switch-windows")
     },
     w:{
       spacebar: open("-g raycast://extensions/raycast/window-management/almost-maximize"),
@@ -117,7 +118,7 @@ const rules: KarabinerRules[] = [
       l: open("-g raycast://extensions/raycast/window-management/next-desktop"),
       h: open("-g raycast://extensions/raycast/window-management/previous-desktop"), 
       f: open("-g raycast://extensions/raycast/window-management/toggle-fullscreen"),
-      
+
     }
   }),
   {
