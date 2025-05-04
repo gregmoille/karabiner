@@ -97,6 +97,7 @@ const rules: KarabinerRules[] = [
       slash: open("raycast://ai-commands/aademic-rewrite"),
       return_or_enter: open("raycast://ai-commands/fix-spelling-and-grammar"),
       period: open("raycast://extensions/raycast/raycast-focus/toggle-focus-session"),
+      delete_or_backspace: open("raycast://extensions/raycast/raycast-ai/ai-chat"),
       n: open("raycast://extensions/raycast/raycast-notes/raycast-notes"),
       k: open("raycast://extensions/rolandleth/kill-process/index"),
       f: open("raycast://extensions/raycast/file-search/search-files"),
@@ -110,7 +111,7 @@ const rules: KarabinerRules[] = [
       m: open("raycast://extensions/yug2005/mail/see-recent-mail"),
       s: open("raycast://extensions/mommertf/slack/unread-messages"),
       w: open("raycast://extensions/raycast/navigation/switch-windows")
-    },
+    }, 
     w:{
       spacebar: open("-g raycast://extensions/raycast/window-management/almost-maximize"),
       right_arrow: open("-g raycast://extensions/raycast/window-management/right-half"),
