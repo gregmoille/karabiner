@@ -108,6 +108,7 @@ const rules: KarabinerRules[] = [
       z: open("raycast://extensions/reckoning-dev/zotero/commandSearchZotero"),
       h: open("raycast://extensions/gbgk/glyph-search/index"),
       u: open("raycast://script-commands/get-current-url"),
+      t: open("raycast://extensions/ron-myers/iterm/open-iterm-here"),
       m: open("raycast://extensions/yug2005/mail/see-recent-mail"),
       s: open("raycast://extensions/mommertf/slack/unread-messages"),
       w: open("raycast://extensions/raycast/navigation/switch-windows")
