@@ -54,6 +54,12 @@ const rules: KarabinerRules[] = [
               value: 0,
             },
           },
+          {
+            set_variable: {
+              name: "hyper_sublayer_f",
+              value: 0,
+            },
+          },
         ],
         // to_if_alone: [
         //   {
@@ -85,7 +91,7 @@ const rules: KarabinerRules[] = [
       s: app("Slack"),
       e: app("Mail"),
       n: app("Notion"),
-      t: app("iTerm2"),
+      t: app("iTerm"),
       f: app("Finder"),
       m: app("Messages"),
       z: app("Zotero"),
@@ -120,8 +126,60 @@ const rules: KarabinerRules[] = [
       l: open("-g raycast://extensions/raycast/window-management/next-desktop"),
       h: open("-g raycast://extensions/raycast/window-management/previous-desktop"), 
       f: open("-g raycast://extensions/raycast/window-management/toggle-fullscreen"),
-
-    }
+    },
+    f:{
+      k: {
+          to: [{key_code: "2", // sort by kind
+              modifiers: 
+                [
+                    "left_control", // Or "right_control"
+                    "left_command", // Or "right_command"
+                    "left_option"   // Or "right_option"
+                  ],
+          }]
+        },
+      n: {
+          to: [{key_code: "1", // sort by kind
+              modifiers: 
+                [
+                    "left_control", // Or "right_control"
+                    "left_command", // Or "right_command"
+                    "left_option"   // Or "right_option"
+                  ],
+          }]
+        },
+      a: {
+          to: [{key_code: "4", // sort by kind
+              modifiers: 
+                [
+                    "left_control", // Or "right_control"
+                    "left_command", // Or "right_command"
+                    "left_option"   // Or "right_option"
+                  ],
+          }]
+        },
+      m: {
+          to: [{key_code: "5", // sort by kind
+              modifiers: 
+                [
+                    "left_control", // Or "right_control"
+                    "left_command", // Or "right_command"
+                    "left_option"   // Or "right_option"
+                  ],
+          }]
+        },
+      0: {
+          to: [{key_code: "3", // sort by kind
+              modifiers: 
+                [
+                    "left_control", // Or "right_control"
+                    "left_command", // Or "right_command"
+                    "left_option"   // Or "right_option"
+                  ],
+          }]
+        },
+      // to: what.map((w) => ({
+    },
   }),
   {
     description: "Change Backspace to Spacebar when Minecraft is focused",
