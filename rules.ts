@@ -168,7 +168,7 @@ const rules: KarabinerRules[] = [
                   ],
           }]
         },
-      0: {
+      o: {
           to: [{key_code: "3", // sort by kind
               modifiers: 
                 [

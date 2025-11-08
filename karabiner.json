@@ -1466,34 +1466,6 @@
               {
                 "to": [
                   {
-                    "key_code": "3",
-                    "modifiers": [
-                      "left_control",
-                      "left_command",
-                      "left_option"
-                    ]
-                  }
-                ],
-                "type": "basic",
-                "from": {
-                  "key_code": "0",
-                  "modifiers": {
-                    "optional": [
-                      "any"
-                    ]
-                  }
-                },
-                "conditions": [
-                  {
-                    "type": "variable_if",
-                    "name": "hyper_sublayer_f",
-                    "value": 1
-                  }
-                ]
-              },
-              {
-                "to": [
-                  {
                     "key_code": "2",
                     "modifiers": [
                       "left_control",
@@ -1589,6 +1561,34 @@
                 "type": "basic",
                 "from": {
                   "key_code": "m",
+                  "modifiers": {
+                    "optional": [
+                      "any"
+                    ]
+                  }
+                },
+                "conditions": [
+                  {
+                    "type": "variable_if",
+                    "name": "hyper_sublayer_f",
+                    "value": 1
+                  }
+                ]
+              },
+              {
+                "to": [
+                  {
+                    "key_code": "3",
+                    "modifiers": [
+                      "left_control",
+                      "left_command",
+                      "left_option"
+                    ]
+                  }
+                ],
+                "type": "basic",
+                "from": {
+                  "key_code": "o",
                   "modifiers": {
                     "optional": [
                       "any"
