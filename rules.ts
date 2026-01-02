@@ -60,6 +60,12 @@ const rules: KarabinerRules[] = [
               value: 0,
             },
           },
+          {
+            set_variable: {
+              name: "hyper_sublayer_g",
+              value: 0,
+            },
+          }
         ],
         // to_if_alone: [
         //   {
@@ -79,6 +85,10 @@ const rules: KarabinerRules[] = [
       t: open("https://twitter.com"),
       r: open("https://reddit.com"),
     }, 
+    g: {
+      o: open("raycast://extensions/yedongze/terminalfinder/finderToGhostty"),
+      f: open("raycast://extensions/yedongze/terminalfinder/ghosttyToFinder"),
+    },
     // o = "Open" applications
     o: {
       1: open("1Password"),
