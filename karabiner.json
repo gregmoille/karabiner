@@ -474,6 +474,30 @@
               {
                 "to": [
                   {
+                    "shell_command": "open Blender"
+                  }
+                ],
+                "description": "Open Blender",
+                "type": "basic",
+                "from": {
+                  "key_code": "3",
+                  "modifiers": {
+                    "optional": [
+                      "any"
+                    ]
+                  }
+                },
+                "conditions": [
+                  {
+                    "type": "variable_if",
+                    "name": "hyper_sublayer_o",
+                    "value": 1
+                  }
+                ]
+              },
+              {
+                "to": [
+                  {
                     "shell_command": "open -a 'Adobe Acrobat.app'"
                   }
                 ],
@@ -522,30 +546,6 @@
               {
                 "to": [
                   {
-                    "shell_command": "open -a 'Blender.app'"
-                  }
-                ],
-                "description": "Open -a 'Blender.app'",
-                "type": "basic",
-                "from": {
-                  "key_code": "B",
-                  "modifiers": {
-                    "optional": [
-                      "any"
-                    ]
-                  }
-                },
-                "conditions": [
-                  {
-                    "type": "variable_if",
-                    "name": "hyper_sublayer_o",
-                    "value": 1
-                  }
-                ]
-              },
-              {
-                "to": [
-                  {
                     "shell_command": "open -a 'Notion Calendar.app'"
                   }
                 ],
@@ -570,10 +570,10 @@
               {
                 "to": [
                   {
-                    "shell_command": "open -a 'Mail.app'"
+                    "shell_command": "open -a 'Mimestream.app'"
                   }
                 ],
-                "description": "Open -a 'Mail.app'",
+                "description": "Open -a 'Mimestream.app'",
                 "type": "basic",
                 "from": {
                   "key_code": "e",

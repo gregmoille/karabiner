@@ -92,15 +92,16 @@ const rules: KarabinerRules[] = [
     // o = "Open" applications
     o: {
       1: open("1Password"),
+      3: open("Blender"),
       a: app("Adobe Acrobat"),
       b: app("Safari"),
-      B: app('Blender'),
       c: app("Notion Calendar"),
-      e: app("Mail"),
+      e: app("Mimestream"),
       f: app("Finder"),
       g: app("Google Chrome"),
       i: app("/applications/adobe\ illustrator\ 2026/adobe\ illustrator"),
       k: app("klayout"),
+
       m: app("Messages"),
       n: app("Notion"),
       p: app("skim"),
